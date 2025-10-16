@@ -13,7 +13,7 @@ function Todolist() {
       <h2>Todolist</h2>
        <ul className='list-unstyled'>
         {
-            todos.map((todo,i)=>{
+          todos.map((todo,i)=>{
                return <Todo t={todo} i={i} deleteTodo={DeleteTodo}></Todo>
             })
         }
